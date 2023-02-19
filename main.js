@@ -46,3 +46,16 @@ function changeText() {
 function oriText() {
     btn1.textContent = defaultText
 }
+
+
+//for btn-2
+const bName = document.createElement('b')
+bName.innerHTML = "Firdaus Fitri"
+
+function addName() {
+    body.append(bName)
+}
+
+function clrName() {
+    bName.style.color = "pink"
+}
